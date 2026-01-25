@@ -1,0 +1,34 @@
+# Sistema de Gestión de Estudiantes en Python
+
+## Descripción del Proyecto
+Este proyecto consiste en el desarrollo de un sistema básico de gestión de estudiantes utilizando el lenguaje de programación Python.  
+El objetivo principal es aplicar los conceptos fundamentales de la Programación Orientada a Objetos (POO), organizando el código de forma modular y clara, tal como se trabajó en clase.
+
+El sistema permite crear estudiantes, almacenarlos y mostrar su información a través de un programa ejecutado desde consola.
+
+---
+
+## Objetivo
+Aplicar los conceptos de Programación Orientada a Objetos en Python mediante un proyecto práctico que incluya:
+- Herencia
+- Encapsulación
+- Polimorfismo
+- Organización modular del código
+
+---
+
+## Conceptos de POO Aplicados
+
+### Herencia
+Se implementa una clase base llamada `Persona`, de la cual hereda la clase `Estudiante`, reutilizando atributos y métodos comunes.
+
+### Encapsulación
+Los atributos de las clases se definen como privados utilizando doble guion bajo (`__`) y se accede a ellos mediante métodos getter.
+
+### Polimorfismo
+Se sobrescribe el método `descripcion()` en la clase `Estudiante`, permitiendo un comportamiento diferente al de la clase base `Persona`.
+
+---
+
+## Estructura del Proyecto
+
