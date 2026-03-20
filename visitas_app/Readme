@@ -1,0 +1,22 @@
+# Sistema de Registro de Visitantes
+
+Aplicación de escritorio desarrollada en Python usando Tkinter, aplicando arquitectura modular por capas (Modelo, Servicio, UI y Main).
+
+## Funcionalidades
+- Registrar visitantes
+- Listar visitantes en tabla
+- Eliminar visitantes
+- Validación de campos
+- Limpieza automática del formulario
+
+## Estructura
+- modelos: clases de datos
+- servicios: lógica CRUD
+- ui: interfaz gráfica
+- main.py: punto de entrada
+
+## Ejecución
+1. Clonar repositorio
+2. Ejecutar:
+
+python main.py
